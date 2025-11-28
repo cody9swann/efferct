@@ -1,0 +1,18 @@
+{
+  "name": "@ats/api",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ats/shared": "workspace:*",
+    "@effect/platform": "^0.93.4",
+    "@effect/platform-bun": "^0.59.4",
+    "effect": "^3.19.6"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

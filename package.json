@@ -1,0 +1,17 @@
+{
+  "name": "ats",
+  "private": true,
+  "packageManager": "bun@1.2.19",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "typecheck": "turbo typecheck",
+    "prepare": "effect-language-service patch"
+  },
+  "devDependencies": {
+    "@effect/language-service": "^0.57.0",
+    "turbo": "^2.3.0",
+    "typescript": "^5.7.2"
+  }
+}

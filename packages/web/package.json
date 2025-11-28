@@ -1,0 +1,26 @@
+{
+  "name": "@ats/web",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ats/shared": "workspace:*",
+    "@effect-atom/atom-react": "^0.4.0",
+    "@tanstack/react-router": "^1.139.7",
+    "@tanstack/react-start": "^1.139.8",
+    "effect": "^3.19.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^7.1.7",
+    "vite-tsconfig-paths": "^5.1.3"
+  }
+}
