@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "dev": "bun --watch src/main.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "bun test test",
+    "test:watch": "bun test --watch test"
   },
   "dependencies": {
     "@ats/shared": "workspace:*",

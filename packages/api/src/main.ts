@@ -37,15 +37,15 @@ const ApiLive = HttpApiBuilder.api(Api).pipe(
 
 // Service layer combining all services with their mock dependencies
 const ServicesLive = Layer.mergeAll(
-  JobService.Live,
-  CandidateService.Live,
-  ApplicationService.Live,
-  InterviewService.Live,
-  ScorecardService.Live,
-  NoteService.Live,
-  ActivityService.Live,
-  UserService.Live,
-  OrganizationService.Live
+  JobService.Default,
+  CandidateService.Default,
+  ApplicationService.Default,
+  InterviewService.Default,
+  ScorecardService.Default,
+  NoteService.Default,
+  ActivityService.Default,
+  UserService.Default,
+  OrganizationService.Default
 ).pipe(Layer.provide(MockLayers))
 
 // Create the HTTP server with logging, CORS, and Swagger middleware
