@@ -1,6 +1,6 @@
 # Effect ATS
 
-An applicant tracking system prototype built to explore Effect-first TypeScript application architecture. The project combines a typed HTTP API, shared domain schemas, service/repository boundaries, mock data layers, and a modern recruiting dashboard UI.
+An applicant tracking system prototype built to explore Effect-first TypeScript application architecture. The project combines a typed HTTP API, shared domain schemas, service/repository boundaries, and mock data layers.
 
 This is intentionally a product-shaped codebase rather than a small demo: jobs, candidates, applications, interviews, scorecards, notes, activity, and organizations are modeled across the API and client.
 
